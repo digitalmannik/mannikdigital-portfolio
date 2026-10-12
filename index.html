@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mannik Gupta’s Digital Marketing Intern portfolio featuring local SEO, WordPress, Brevo email automation and Shopify e-commerce demo projects.">
+  <title>Mannik Gupta | Digital Marketing Intern Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0b2a5b;--blue:#1e88e5;--green:#22b573;--ink:#1f2937;--muted:#65748b;--bg:#f4f7fb;--white:#fff;--line:#e4eaf2;--shadow:0 18px 55px rgba(11,42,91,.10)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.65}a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:22px}.brand{font:800 1.25rem Poppins,sans-serif;color:var(--navy);letter-spacing:-.5px}.brand span{color:var(--blue)}.brand small{display:block;font:500 .65rem Inter,sans-serif;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-top:-5px}
+    .navlinks{display:flex;align-items:center;gap:26px;font-size:.92rem;font-weight:600}.navlinks a:hover{color:var(--blue)}.menu-btn{display:none;border:1px solid var(--line);background:white;border-radius:10px;padding:8px 12px;font-size:1.2rem}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 19px;border-radius:10px;background:var(--blue);color:white;font-weight:700;border:1px solid var(--blue);transition:.2s;cursor:pointer}.btn:hover{transform:translateY(-2px);box-shadow:0 10px 22px #1e88e533}.btn.secondary{background:white;color:var(--navy);border-color:#cbd8e8}.btn.green{background:var(--green);border-color:var(--green);color:#062e1b}
+    .hero{background:radial-gradient(circle at 85% 15%,#d9edff 0,transparent 30%),linear-gradient(135deg,#f6f9ff,#fff 65%);padding:88px 0 76px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:55px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#e6f3ff;color:var(--navy);padding:7px 12px;border-radius:999px;font-size:.8rem;font-weight:800;letter-spacing:.3px}.dot{width:8px;height:8px;border-radius:50%;background:var(--green)}h1,h2,h3{font-family:Poppins,Inter,sans-serif;line-height:1.18;color:var(--navy);margin-top:0}h1{font-size:clamp(2.5rem,5.2vw,4.4rem);letter-spacing:-2px;margin:20px 0}h1 span{color:var(--blue)}.hero p{font-size:1.08rem;color:var(--muted);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin:27px 0 22px}.trustline{font-size:.87rem;color:var(--muted)}.trustline strong{color:var(--navy)}
+    .dashboard{background:white;border:1px solid #e0e9f4;border-radius:24px;padding:23px;box-shadow:var(--shadow);transform:rotate(1deg)}.dash-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.dash-title{font:700 1rem Poppins;color:var(--navy)}.live{font-size:.7rem;background:#e4f8ee;color:#137448;padding:5px 9px;border-radius:999px;font-weight:800}.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.metric{background:var(--bg);padding:17px;border-radius:15px}.metric small{display:block;color:var(--muted);font-weight:600}.metric strong{display:block;font:700 1.55rem Poppins;color:var(--navy);margin:5px 0}.metric em{font-style:normal;color:#168656;font-size:.78rem;font-weight:700}.chart{margin-top:14px;background:#f8fbff;border-radius:15px;padding:14px}.chart-label{display:flex;justify-content:space-between;color:var(--muted);font-size:.8rem;font-weight:600}.bars{height:82px;display:flex;align-items:end;gap:8px;padding-top:10px}.bars i{display:block;flex:1;border-radius:5px 5px 0 0;background:linear-gradient(180deg,var(--blue),#a8d5ff)}.bars i:nth-child(1){height:30%}.bars i:nth-child(2){height:45%}.bars i:nth-child(3){height:38%}.bars i:nth-child(4){height:65%}.bars i:nth-child(5){height:55%}.bars i:nth-child(6){height:80%}.bars i:nth-child(7){height:95%;background:linear-gradient(180deg,var(--green),#b9f0d7)}
+    section{padding:78px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}.kicker{color:var(--blue);font-weight:800;font-size:.78rem;letter-spacing:1.7px;text-transform:uppercase}.section-head h2{font-size:clamp(1.9rem,3.5vw,2.7rem);margin:10px 0 12px;letter-spacing:-.8px}.section-head p{color:var(--muted);margin:0}.services{background:var(--bg)}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.service-card{background:white;border:1px solid var(--line);border-radius:17px;padding:23px 20px;transition:.2s}.service-card:hover,.project:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service-icon{width:46px;height:46px;border-radius:13px;background:#e6f3ff;display:grid;place-items:center;font-size:1.35rem;margin-bottom:16px}.service-card h3{font-size:1.05rem;margin-bottom:8px}.service-card p{font-size:.9rem;color:var(--muted);margin:0}
+    .projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.project{border:1px solid var(--line);border-radius:19px;overflow:hidden;background:white;transition:.2s}.project-cover{height:175px;padding:20px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0b2a5b,#1e88e5);color:white;position:relative;overflow:hidden}.project-cover.green-cover{background:linear-gradient(135deg,#063c30,#22b573)}.project-cover.purple-cover{background:linear-gradient(135deg,#3b277b,#9775ee)}.mock-window{width:86%;background:#fff;border-radius:10px;padding:12px;color:var(--navy);box-shadow:0 10px 28px #00163a40}.mock-dots{display:flex;gap:4px;margin-bottom:9px}.mock-dots i{width:5px;height:5px;border-radius:50%;background:#cbd8e8}.mock-line{height:7px;background:#e7eef7;border-radius:5px;margin:7px 0;width:90%}.mock-line.short{width:55%}.mock-cta{width:70px;height:17px;border-radius:5px;background:var(--blue);margin-top:11px}.project-body{padding:22px}.tag{display:inline-block;background:#edf5ff;color:#155eaa;border-radius:6px;padding:4px 8px;font-size:.7rem;font-weight:800;margin:0 4px 10px 0}.project h3{font-size:1.15rem;margin:4px 0 10px}.project p{color:var(--muted);font-size:.9rem;margin:0 0 15px}.project ul{padding-left:18px;margin:0 0 17px;color:#4c5b70;font-size:.86rem}.project li{margin:4px 0}.text-link{color:var(--blue);font-weight:800;font-size:.9rem}
+    .process{background:var(--bg)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{background:white;border:1px solid var(--line);border-radius:16px;padding:23px}.step-no{font:800 1.6rem Poppins;color:var(--blue);background:#e6f3ff;width:48px;height:48px;border-radius:13px;display:grid;place-items:center;margin-bottom:14px}.step h3{font-size:1.1rem;margin-bottom:8px}.step p{color:var(--muted);font-size:.92rem;margin:0}
+    .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:center}.profile-card{border-radius:22px;background:linear-gradient(145deg,#0b2a5b,#1e88e5);padding:30px;color:white;min-height:300px;display:flex;flex-direction:column;justify-content:space-between}.profile-mark{width:66px;height:66px;border-radius:18px;background:#ffffff20;display:grid;place-items:center;font:800 1.5rem Poppins}.profile-card h3{color:white;font-size:1.65rem;margin:24px 0 6px}.profile-card p{color:#d9eaff;margin:0}.skill-list{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0}.skill-list span{padding:8px 11px;border:1px solid var(--line);border-radius:8px;font-size:.84rem;font-weight:700;color:#40516a;background:white}.about-copy p{color:var(--muted)}.note{border-left:3px solid var(--green);padding:11px 15px;background:#f0fbf6;border-radius:0 9px 9px 0;color:#28624b;font-size:.88rem;margin-top:18px}
+    .contact{background:linear-gradient(135deg,#f3f8ff,#fff)}.contact-panel{background:var(--navy);border-radius:25px;padding:45px;color:white;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.contact-panel h2{color:white;font-size:clamp(1.8rem,3.5vw,2.5rem);margin:10px 0}.contact-panel p{color:#d8e6f8;max-width:650px;margin:0}.contact-actions{display:flex;flex-direction:column;gap:10px;min-width:200px}.contact-actions .btn.secondary{background:transparent;color:white;border-color:#7793b8}
+    footer{padding:25px 0;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer-inner strong{color:var(--navy)}
+    @media(max-width:900px){.hero-grid,.about-grid{grid-template-columns:1fr;gap:35px}.dashboard{max-width:520px;margin:auto}.service-grid{grid-template-columns:repeat(2,1fr)}.projects-grid{grid-template-columns:1fr 1fr}.contact-panel{grid-template-columns:1fr}.contact-actions{flex-direction:row;flex-wrap:wrap}}
+    @media(max-width:620px){nav{min-height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:68px;background:white;border-bottom:1px solid var(--line);padding:20px 5%;flex-direction:column;align-items:flex-start;gap:18px}.navlinks.open{display:flex}.navlinks .btn{width:100%}.hero{padding:58px 0}.hero-grid{gap:28px}h1{letter-spacing:-1.2px}.service-grid,.projects-grid,.steps{grid-template-columns:1fr}.section-head{text-align:left}.section-head p{max-width:100%}section{padding:58px 0}.contact-panel{padding:28px 22px}.contact-actions{flex-direction:column}.dashboard{padding:15px}.metric{padding:13px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="#home">mannik<span>digital</span><small>Digital Marketing Portfolio</small></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="navlinks" id="navLinks">
+        <a href="#services">Skills</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact" class="btn">Contact Me ↗</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> DIGITAL MARKETING · PORTFOLIO</span>
+        <h1>Helping brands get found, earn trust & <span>grow online.</span></h1>
+        <p>Hi, I’m Mannik — an aspiring digital marketer building practical projects in local SEO, conversion-focused websites, email marketing automation and e-commerce. I turn learning into hands-on work that businesses can use.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">Explore My Projects ↓</a>
+          <a class="btn secondary" href="mailto:mannik040@gmail.com?subject=Digital%20Marketing%20Interview">Contact for an Interview ↗</a>
+        </div>
+        <div class="trustline"><strong>Portfolio focus:</strong> practical demos · measurable goals · continuous learning</div>
+      </div>
+      <div class="dashboard" aria-label="Illustrative marketing dashboard">
+        <div class="dash-top"><div class="dash-title">Marketing Snapshot</div><span class="live">PROJECT DEMO</span></div>
+        <div class="metric-grid">
+          <div class="metric"><small>Visibility</small><strong>SEO</strong><em>Local discovery</em></div>
+          <div class="metric"><small>Engagement</small><strong>Email</strong><em>Automated journeys</em></div>
+          <div class="metric"><small>Conversion</small><strong>CTA</strong><em>Clear next steps</em></div>
+          <div class="metric"><small>Experience</small><strong>UX</strong><em>Mobile-friendly</em></div>
+        </div>
+        <div class="chart"><div class="chart-label"><span>Campaign workflow</span><span>Illustrative</span></div><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head"><span class="kicker">What I’m building</span><h2>Digital marketing skills with a practical approach</h2><p>From discovery to follow-up, I focus on the customer journey and the small details that make a campaign easier to understand, track and improve.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon">⌕</div><h3>SEO & Local Visibility</h3><p>Keyword research, on-page SEO basics, local business content and search-friendly page structure.</p></article>
+        <article class="service-card"><div class="service-icon">✉</div><h3>Email Marketing</h3><p>Brevo campaigns, welcome sequences, list management, CTAs and basic engagement workflows.</p></article>
+        <article class="service-card"><div class="service-icon">↗</div><h3>Landing Pages & CRO</h3><p>Clear value propositions, responsive layouts, lead forms and conversion-focused calls to action.</p></article>
+        <article class="service-card"><div class="service-icon">▦</div><h3>E-commerce Marketing</h3><p>Shopify demo store setup, product presentation, customer journey and store content.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-head"><span class="kicker">Selected work</span><h2>Projects that show how I learn by doing</h2><p>These are portfolio/demo projects created to practise real digital marketing workflows. Results are not presented as client outcomes.</p></div>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="project-cover"><div class="mock-window"><div class="mock-dots"><i></i><i></i><i></i></div><div style="font:800 12px Poppins">GrowLocal Digital</div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-cta"></div></div></div>
+          <div class="project-body"><span class="tag">WEBSITE · LOCAL SEO</span><h3>GrowLocal Digital</h3><p>A digital marketing agency demo for local businesses in Delhi NCR, designed around visibility, trust and lead generation.</p><ul><li>Service-led landing page and CTA structure</li><li>SEO-friendly messaging and page hierarchy</li><li>Brevo newsletter signup integration</li></ul><a class="text-link" href="https://growlocaldigital.wuaze.com/" target="_blank" rel="noopener">View live demo ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-cover green-cover"><div class="mock-window"><div class="mock-dots"><i></i><i></i><i></i></div><div style="font:800 12px Poppins">Email Journey</div><div class="mock-line"></div><div style="display:flex;gap:5px;margin-top:12px"><div style="background:#dff7ea;padding:8px;border-radius:5px;font-size:8px">Welcome</div><div style="background:#dff7ea;padding:8px;border-radius:5px;font-size:8px">Day 2</div><div style="background:#dff7ea;padding:8px;border-radius:5px;font-size:8px">Day 6</div></div><div class="mock-line short"></div></div></div>
+          <div class="project-body"><span class="tag">BREVO · AUTOMATION</span><h3>Email Marketing Workflow</h3><p>A multi-step email nurture demo built to welcome subscribers, share useful tips and invite interested contacts to connect.</p><ul><li>Welcome email and follow-up sequence</li><li>CTA links for website, email and WhatsApp</li><li>Engagement-based follow-up branches</li></ul><a class="text-link" href="mailto:mannik040@gmail.com?subject=Email%20Automation%20Portfolio">Ask me about this project ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-cover purple-cover"><div class="mock-window"><div class="mock-dots"><i></i><i></i><i></i></div><div style="font:800 12px Poppins">UrbanBrew Cafe</div><div style="display:flex;gap:7px;margin-top:10px"><div style="height:48px;flex:1;border-radius:6px;background:#efe8ff"></div><div style="height:48px;flex:1;border-radius:6px;background:#d9ceff"></div><div style="height:48px;flex:1;border-radius:6px;background:#f3edff"></div></div><div class="mock-line short"></div></div></div>
+          <div class="project-body"><span class="tag">SHOPIFY · E-COMMERCE</span><h3>UrbanBrew Cafe</h3><p>A Shopify store concept for a cafe audience, used to practise product merchandising and the online shopping journey.</p><ul><li>Product descriptions and menu collection</li><li>Home, product, about and contact pages</li><li>Customer review section and store navigation</li></ul><a class="text-link" href="https://cbpp3f-zz.myshopify.com/" target="_blank" rel="noopener">View store demo ↗</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="container">
+      <div class="section-head"><span class="kicker">How I work</span><h2>Plan. Build. Learn. Improve.</h2><p>A simple process that keeps the customer and the campaign objective in focus.</p></div>
+      <div class="steps">
+        <article class="step"><div class="step-no">01</div><h3>Understand the goal</h3><p>Clarify the audience, offer, customer problem and the action the campaign should encourage.</p></article>
+        <article class="step"><div class="step-no">02</div><h3>Build the experience</h3><p>Create useful content, responsive pages, clear CTAs and a relevant follow-up journey.</p></article>
+        <article class="step"><div class="step-no">03</div><h3>Measure & improve</h3><p>Review available engagement signals, test the journey and identify the next improvement.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="profile-card"><div class="profile-mark">MD</div><div><span class="kicker" style="color:#a8d5ff">A LITTLE ABOUT ME</span><h3>Mannik Gupta<br>Digital Marketing Intern</h3><p>Curious, hands-on and focused on turning marketing concepts into working demos.</p></div></div>
+      <div class="about-copy"><span class="kicker">About me</span><h2>Ready to contribute, learn and grow with a marketing team.</h2><p>I’m developing my digital marketing portfolio through practical projects across websites, email automation and e-commerce. I enjoy connecting the dots between a business goal, a customer’s needs and the digital experience that helps them take action.</p><p>I’m seeking a Digital Marketing Internship where I can contribute to SEO, content, email marketing, campaign coordination and performance reporting while learning from an experienced team.</p><div class="skill-list"><span>SEO fundamentals</span><span>Brevo</span><span>Email campaigns</span><span>WordPress</span><span>Shopify</span><span>Landing pages</span><span>CTA strategy</span><span>Content writing</span></div><div class="note"><strong>Portfolio transparency:</strong> projects shown here are demonstrations of hands-on learning, not claims of paid client work or unverified campaign results.</div></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-panel"><div><span class="kicker" style="color:#a8d5ff">LET’S CONNECT</span><h2>Have a digital marketing opportunity?</h2><p>I’d welcome the chance to discuss my portfolio, explain my project decisions and show how I can support your team.</p></div><div class="contact-actions"><a class="btn green" href="mailto:mannik040@gmail.com?subject=Digital%20Marketing%20Opportunity">✉ Email Mannik</a><a class="btn secondary" href="https://www.linkedin.com/in/mannik-gupta-74010847/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a><button class="btn secondary" id="copyEmail" type="button">Copy email address</button><small id="copyStatus" aria-live="polite"></small></div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="container footer-inner"><span>© <span id="year"></span> <strong>mannikdigital</strong> · Digital Marketing Portfolio</span><span>Built to showcase practical projects and continuous learning.</span></div></footer>
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const navLinks = document.getElementById('navLinks');
+  menuBtn.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(isOpen));
+    menuBtn.textContent = isOpen ? '✕' : '☰';
+  });
+  navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuBtn.textContent = '☰';
+  }));
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('copyEmail').addEventListener('click', async () => {
+    const status = document.getElementById('copyStatus');
+    try {
+      await navigator.clipboard.writeText('mannik040@gmail.com');
+      status.textContent = 'Email copied!';
+    } catch (e) {
+      status.textContent = 'Email: mannik040@gmail.com';
+    }
+  });
+</script>
+</body>
+</html>
